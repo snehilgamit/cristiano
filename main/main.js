@@ -39,7 +39,4 @@ themeToggleBtn.addEventListener('click', function() {
     
 });
 
-let vid = document.getElementById("myvideo");
-vid.volume = 0.7;
-
 
