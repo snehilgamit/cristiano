@@ -25,9 +25,7 @@ gsap.from(".cr7text",{
 gsap.to(".cr7text",{
     scrollTrigger:{
         trigger:'.cr7',
-        start:'bottom center',
-        end:'bottom 70',
-        scrub:true,
+        start:'clamp(bottom center)',
     },
    "z-index":'-1'
 })
