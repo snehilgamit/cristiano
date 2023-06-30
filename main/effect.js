@@ -15,7 +15,7 @@ gsap.from(".cr7text",{
         trigger:'.cr7',
         start:'top center',
         end:'top 70',
-        scrub:2,
+        scrub:true,
     },
    x:-400,
    "color":'black',
@@ -27,7 +27,7 @@ gsap.to(".cr7text",{
         trigger:'.cr7',
         start:'bottom center',
         end:'bottom 70',
-        scrub:2,
+        scrub:true,
     },
    "z-index":'-1'
 })
