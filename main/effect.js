@@ -10,6 +10,8 @@ gsap.to(".gallery",{
     backgroundColor: "white",
 })
 
+gsap.set(".cr7text",
+{"z-index":'-1'})
 gsap.from(".cr7text",{
     scrollTrigger:{
         trigger:'.cr7',
@@ -19,13 +21,14 @@ gsap.from(".cr7text",{
     },
    x:-400,
    "color":'black',
-   "z-index":'-1'
+//    "z-index":'-1'
 })
 
-gsap.to(".cr7text",{
-    scrollTrigger:{
-        trigger:'.cr7',
-        start:'clamp(bottom center)',
-    },
-   "z-index":'-1'
-})
+// gsap.to(".cr7text",{
+//     scrollTrigger:{
+//         trigger:'.cr7', 
+//         start:'bottom top',
+//         markers:true
+//     },
+//    "z-index":'-1'
+// })
