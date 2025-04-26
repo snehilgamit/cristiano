@@ -5,7 +5,9 @@ module.exports = {
     grayscale: {
       10: '10%',
     },
-    extend: {},
+    extend: {
+      
+    },
   },
   plugins: [],
 }
